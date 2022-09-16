@@ -1,0 +1,62 @@
+<html>
+<head>
+      
+     
+     <link rel="stylesheet"  href="watch.css"> 
+</head>
+<body>
+  <div class="container">
+        <div class="navbar">
+             <img src="wlogo.png" class="logo">
+             <nav >
+		     <ul id="menuList">
+    		       <li><a href="">Watch Type</a></li>
+    		       <li><a href="">Color</a></li>
+    		       <li><a href=""></a>Cost</li>
+    		       <li><a href=""></a>Others</li>
+		     </ul>
+	         </nav>
+              <img src="menu.png" class="menu-icon" 
+              onclick="togglemenu()">
+        </div>
+	<div class="row">
+		<div class="col-1">
+			<h2>Titan Offer <br>latest version</h2>
+			<h3>Discount 30% on each sale </h3>
+			<p>Titan is the largest and most trusted watch brand in India. Shop From Exclusive Range Of Titan Watches Only On Titan E-Store. Buy Now.
+
+                Styles: Casual, Formal, Trendy
+                  </p>
+			<h4>Special offers on Wednesday</h4>
+                  <button type="button">Order <img src="click.jpeg">
+                  </button>
+		</div>
+		<div class="col-2">
+                <img src="watch pic.jpg" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                  <img src="plus.jpeg">
+                  <p><small>Place your Order</small></p>
+                </div>
+             </div>
+      
+	 
+  </div>
+
+  <script>
+     var menuList = document.getElementById("menuList");
+     menuList.style.maxHeight = "0px";
+     function togglemenu(){
+          if(menuList.style.maxHeight == "0px")
+                {
+                       menuList.style.maxHeight = "130px";
+                }
+          else
+                {
+                       menuList.style.maxHeight = "0px";
+                }
+      }
+   </script>
+
+</body>
+</html>
